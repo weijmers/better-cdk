@@ -4,7 +4,7 @@ import * as cdk from 'aws-cdk-lib';
 import { BetterCdkStack } from '../lib/better-cdk-stack';
 
 const app = new cdk.App();
-new BetterCdkStack(app, 'BetterCdkStack', {
+new BetterCdkStack(app, 'better-cdk-STACK', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */
